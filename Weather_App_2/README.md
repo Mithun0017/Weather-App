@@ -23,18 +23,3 @@ A sleek, user-friendly weather application built with **HTML**, **CSS**, and **v
 - **OpenWeatherMap API** – Current weather by city :contentReference[oaicite:2]{index=2}
 
 ---
-
-## 📁 Project Structure
-
-weather-app/
-├── index.html
-├── style.css
-├── script.js
-└── Images/
-    ├── search.png
-    ├── clouds.png
-    ├── clear.png
-    ├── rain.png
-    ├── drizzle.png
-    ├── mist.png
-    └── snow.png
