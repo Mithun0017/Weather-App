@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🌤️ Weather App</title>
+  <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+
+  <div class="container">
+    <header>
+      <h1>🌤️ Weather App</h1>
+      <div class="search-box">
+        <input type="text" placeholder="Enter city name" id="cityInput">
+        <button id="searchBtn">Search</button>
+        <label class="toggle">
+          <input type="checkbox" id="unitToggle">
+          <span class="slider"></span>
+        </label>
+      </div>
+    </header>
+
+    <main>
+      <div id="weatherCard" class="card hidden">
+        <div class="location-time">
+          <h2 id="cityName">City</h2>
+          <p id="localTime">Local time</p>
+        </div>
+        <div class="weather-info">
+          <img src="" alt="weather icon" id="weatherIcon">
+          <p id="description">Clear</p>
+          <h1 id="temperature">--°C</h1>
+          <p id="feelsLike">Feels like --°C</p>
+        </div>
+        <div class="extras">
+          <p>Humidity: <span id="humidity">--%</span></p>
+          <p>Wind: <span id="wind">-- km/h</span></p>
+          <p>Pressure: <span id="pressure">-- hPa</span></p>
+          <p>Sunrise: <span id="sunrise">--</span></p>
+          <p>Sunset: <span id="sunset">--</span></p>
+        </div>
+      </div>
+
+      <div id="forecastContainer" class="forecast hidden">
+        <h3>5-Day Forecast</h3>
+        <div id="forecastCards" class="forecast-cards"></div>
+        <canvas id="forecastChart" height="150"></canvas>
+      </div>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
