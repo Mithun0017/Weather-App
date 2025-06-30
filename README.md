@@ -1,12 +1,6 @@
 # 🌤️ Weather App Gallery
 
-A curated collection of **multiple weather app designs**—each offering unique UI/UX, layout, and visual style—all implemented in clean HTML, CSS, and JavaScript.
-
----
-
-## 📦 Repository Structure
-
-Each subfolder contains a fully functional weather app you can view by opening its `index.html` in a browser.
+A curated collection of **multiple weather app designs**—each offering unique UI/UX, layout, and visual style—all.
 
 ---
 
