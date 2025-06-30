@@ -1,6 +1,6 @@
 # 🌤️ Weather App Gallery
 
-A curated collection of **multiple weather app designs**—each offering unique UI/UX, layout, and visual style—all.
+A curated collection of **multiple weather app designs**—each offering unique UI/UX, layout, and visual style.
 
 ---
 
