@@ -13,3 +13,17 @@ A curated collection of **multiple weather app designs**—each offering unique 
 - Graceful error handling & loading states
 
 ---
+
+## 📸 Screenshots
+
+<p float="left">
+  <img src="./Output Screenshots/Weather_App_1.png" width="28%" />
+  <img src="./Output Screenshots/Weather_App_2.png" width="28%" />
+</p>
+
+<p float="left">
+  <img src="./Output Screenshots/Weather_App_3.png" width="28%" />
+  <img src="./Output Screenshots/Weather_App_4.png" width="28%"/>
+</p>
+
+---
